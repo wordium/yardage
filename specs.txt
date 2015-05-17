@@ -1,0 +1,111 @@
+
+1. I have fabric, but I don't know what I can do with it
+  - How much fabric?
+      - Length
+      - Width
+  - What type of fabric?
+  - Is there a pattern on the fabric?
+  -> Results w/o size information
+  - Get size information
+  -> More accurate results
+2. I want to make something, but I don't know how much fabric I need
+  - What do you want to make?
+      - Show categories
+  -> Results w/o size information
+  - Get size information
+  -> More accurate results
+  --> Fabric type recommendations
+
+
+Size information
+------------------
+Clothing: height, chest, waist, hips, type (misses', plus, men, children, baby)
+Accessories: head size, foot size, adult, child, baby
+Home: bed, large table, small table, large/small anything
+
+
+
+Types of projects
+------------------
+
+Clothing:
+Tops
+ - T-shirt
+ - Shirt (long sleeve, short sleeve)
+ - Tank top
+ - Tunic (sleeveless, short sleeve, long sleeve)
+ - Pullover
+ - Cardigan
+
+Bottoms
+ - Pants
+ - Skirts
+ - Shorts
+ - Leggings
+
+Dresses
+
+Outerwear
+ - Jackets
+ - Coats
+ - Vests
+
+Accessories:
+ - Scarf
+ - Hat
+ - Socks
+ - Mittens
+ - Bag
+
+Home:
+ - Pillows
+ - Blankets/Throws
+ - Curtains
+ - Tablecloth
+ - Napkins/Placemats
+ - Table Runner
+
+
+
+Fabric types
+
+Broadcloth
+Cotton types
+Cotton blends
+Crepe
+Crepe back satin
+Eyelet
+Faille
+Linen types
+Satin
+Taffeta
+
+Microsuede
+
+Fleece
+Minky
+
+Broadcloth
+Calico
+Chino
+Chintz
+Cotton Types
+Denim
+Gingham
+Linen Types
+Pique
+Poplin
+Twill
+
+Seersucker
+Shirting
+Lace
+
+
+
+https://www.google.com/search?q=promote+your+sewing+blog&oq=promote+your+sewing+blog&aqs=chrome..69i57.2799j0j1&sourceid=chrome&es_sm=91&ie=UTF-8
+http://www.sewdelicious.com.au/2014/02/how-to-grow-your-creative-blog.html
+http://www.sewdelicious.com.au/2012/09/simple-zip-pouch-tutorial-for-beginners.html
+http://www.sewmamasew.com/2013/06/small-craft-business-tips-20-proven-types-of-blog-posts/
+
+

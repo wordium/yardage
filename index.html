@@ -15,11 +15,32 @@
   </head>
 
   <body>
+    <header>
+      <h1>yardage.info</h1>
+      <p>Information on fabric yardages!</p>
+    </header>
 
-    <div>
-      <input type="button" id="fabHave" class="chooseBtn" value="have fabric" />
-      <input type="button" id="fabNeed" class="chooseBtn" value="need fabric" />
-    </div>
+    <section id="fork">
+      <input type="button" id="forkHave" class="chooseBtn" value="What can I make?">
+      <!--input type="button" id="forkBuy"  class="chooseBtn" value="How much do I need?"-->
+    </section>
+
+    <section id="fabricDetails">
+      <h3>I have this much fabric:</h3>
+      <label>Units:</label>
+      <input type="radio" name="units" class="unitSelect" id="metric" value="metric"><label id="metricLabel" for="metric">Metric</label>
+      <input type="radio" name="units" class="unitSelect" id="imperial" value="imperial"><label id="imperialLabel" for="imperial">Imperial</label>
+
+      <label>Yardage:</label>
+      <input type="radio" name="length" class="lengthSelect" id="length05" value="0.5"><label id="length05Label" for="length05">0.5</label>
+      <input type="radio" name="length" class="lengthSelect" id="length1" value="1"><label id="length1Label" for="length05">1</label>
+      <input type="radio" name="length" class="lengthSelect" id="length15" value="1.5"><label id="length15Label" for="length05">1.5</label>
+      <input type="radio" name="length" class="lengthSelect" id="length2" value="2"><label id="length2Label" for="length05">2</label>
+      <input type="radio" name="length" class="lengthSelect" id="length25" value="2.5"><label id="length25Label" for="length05">2.5</label>
+      <input type="radio" name="length" class="lengthSelect" id="length3" value="3+"><label id="length3Label" for="length05">3+</label>
+
+
+    </section>
 
     <div id="haveFabric">
       <div>

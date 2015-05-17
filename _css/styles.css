@@ -19,3 +19,10 @@ input[type="button"]:active {
   display: block;
 }
 
+input[type="radio"] {
+  display: none;
+}
+
+label.selected {
+  background-color: rgba(243,145,178, 0.5);
+}
