@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Sandra Yuen Helsley</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="_css/cssreset-min.css">
+    <link rel="stylesheet" type="text/css" href="_css/styles.css">
+
+    <script src="_js/jquery-2.0.3.min.js"></script>
+    <script src="_js/scripts.js"></script>
+  </head>
+
+  <body>
+
+    <div>
+      <input type="button" id="fabHave" class="chooseBtn" value="have fabric" />
+      <input type="button" id="fabNeed" class="chooseBtn" value="need fabric" />
+    </div>
+
+    <div>
+      <div>
+        How much fabric do you have?
+
+        <input type="radio" id="radioImp" name="units" value="imperial"/><label for="radioImp">Imperial</label>
+        <input type="radio" id="radioMet" name="units" value="metric" /><label for="radioMet">Metric</label>
+
+        <div>
+          Length:
+          <input type="text"> <span id="lengthType"></span>
+        </div>
+        <div>
+          Width:
+          <input type="text"> <span id="widthType"></span>
+        </div>
+
+        <div>
+          What type of fabric is it?
+
+          Construction:
+          <br>
+          <input type="button" id="typeWoven" class="btnConstruction" value="Woven">
+          <input type="button" id="typeKnit" class="btnConstruction" value="Knit">
+          <input type="button" id="typeNonWoven" class="btnConstruction" value="Non-Woven">
+          <br>
+
+          Weight:
+          <br>
+          <input type="button" id="weightSheer" class="btnWeight" value="Sheer">
+          <input type="button" id="weightLight" class="btnWeight" value="Light">
+          <input type="button" id="weightMedium" class="btnWeight" value="Medium">
+          <input type="button" id="weightHeavy" class="btnWeight" value="Heavy">
+          <br>
+
+          How drapey is it:
+          <br>
+          <input type="button" id="drapeNone" class="btnDrape" value="Super Stiff">
+          <input type="button" id="drapeLow" class="btnDrape" value="Not very">
+          <input type="button" id="drapeMed" class="btnDrape" value="Somewhat">
+          <input type="button" id="drapeHigh" class="btnDrape" value="Very">
+
+        </div>
+
+        <div>
+          Does the fabric have a pattern?
+            No, it's plain
+            Yes, stripes
+            Yes, other
+        </div>
+      </div>
+
+      <div>
+        Size information (optional)
+      </div>
+
+      <div>
+        Results
+      </div>
+
+
+    </div>
+
+  </body>
+</html>
