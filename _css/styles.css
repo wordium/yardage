@@ -1,28 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Hind:600,300);
 
+/***** colours *****
+teal
+light: E0F1F1
+med: 7ECAC3
+dark: 00685B
 
-input[type="button"] {
-  border: 1px solid black;
-  background: 0;
-  padding: 5px;
+pink
+light: F391B2
+dark: AE1E58
+*/
+
+html {
+    background-color: #00685B;
 }
 
-input[type="button"]:hover {
-  background: #ccc;
+body {
+  text-align: center;
+  font-family: 'Hind', 'sans-serif';
+  font-weight: 300;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-input[type="button"]:active {
-  background: #eee;
+#container {
+  position: relative;
+  background-color: #7ECAC3;
+  padding-bottom: 5%;
 }
 
-
-.chooseBtn {
-  display: block;
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
 }
 
-input[type="radio"] {
+h1 {
+  font-size: 3.0em;
+}
+h2 {
+  font-size: 2.5em;
+}
+
+.hidden {
   display: none;
 }
 
-label.selected {
-  background-color: rgba(243,145,178, 0.5);
+select  {
+  text-transform: capitalize;
+  display: block;
+  width: 30%;
+  margin: 1em auto 0;
+  background: #E0F1F1;
+  border: 1px solid #AE1E58;
+}
+
+header {
+  border-top: 1em solid #00685B;
+  padding-top: 1em;
+}
+
+footer {
+  background-color: #00685B;
+  color: #fff;
+  width: 100%;
+  font-size: 0.75em;
+  padding: 1em 0;
+}
+
+footer a {
+  color: #F391B2;
+}
+
+#selections {
+  padding-bottom: 3em;
 }

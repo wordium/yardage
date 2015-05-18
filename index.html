@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>Sandra Yuen Helsley</title>
+    <title>yardage.info</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,94 +15,28 @@
   </head>
 
   <body>
-    <header>
-      <h1>yardage.info</h1>
-      <p>Information on fabric yardages!</p>
-    </header>
+    <div id="container">
+      <header>
+        <p>How much fabric do you need?</p>
+        <h1><span id="number">1</span> yard<span id="plural" class="hidden">s</span>!</h1>
+      </header>
 
-    <section id="fork">
-      <input type="button" id="forkHave" class="chooseBtn" value="What can I make?">
-      <!--input type="button" id="forkBuy"  class="chooseBtn" value="How much do I need?"-->
-    </section>
-
-    <section id="fabricDetails">
-      <h3>I have this much fabric:</h3>
-      <label>Units:</label>
-      <input type="radio" name="units" class="unitSelect" id="metric" value="metric"><label id="metricLabel" for="metric">Metric</label>
-      <input type="radio" name="units" class="unitSelect" id="imperial" value="imperial"><label id="imperialLabel" for="imperial">Imperial</label>
-
-      <label>Yardage:</label>
-      <input type="radio" name="length" class="lengthSelect" id="length05" value="0.5"><label id="length05Label" for="length05">0.5</label>
-      <input type="radio" name="length" class="lengthSelect" id="length1" value="1"><label id="length1Label" for="length05">1</label>
-      <input type="radio" name="length" class="lengthSelect" id="length15" value="1.5"><label id="length15Label" for="length05">1.5</label>
-      <input type="radio" name="length" class="lengthSelect" id="length2" value="2"><label id="length2Label" for="length05">2</label>
-      <input type="radio" name="length" class="lengthSelect" id="length25" value="2.5"><label id="length25Label" for="length05">2.5</label>
-      <input type="radio" name="length" class="lengthSelect" id="length3" value="3+"><label id="length3Label" for="length05">3+</label>
-
-
-    </section>
-
-    <div id="haveFabric">
-      <div>
-        How much fabric do you have?
-
-        <input type="radio" id="radioImp" name="units" value="imperial"/><label for="radioImp">Imperial</label>
-        <input type="radio" id="radioMet" name="units" value="metric" /><label for="radioMet">Metric</label>
-
-        <div>
-          Length:
-          <input type="text"> <span id="lengthType"></span>
-        </div>
-        <div>
-          Width:
-          <input type="text"> <span id="widthType"></span>
-        </div>
-
-        <div>
-          What type of fabric is it?
-
-          Construction:
-          <br>
-          <input type="button" id="typeWoven" class="btnConstruction" value="Woven">
-          <input type="button" id="typeKnit" class="btnConstruction" value="Knit">
-          <input type="button" id="typeNonWoven" class="btnConstruction" value="Non-Woven">
-          <br>
-
-          Weight:
-          <br>
-          <input type="button" id="weightSheer" class="btnWeight" value="Sheer">
-          <input type="button" id="weightLight" class="btnWeight" value="Light">
-          <input type="button" id="weightMedium" class="btnWeight" value="Medium">
-          <input type="button" id="weightHeavy" class="btnWeight" value="Heavy">
-          <br>
-
-          How drapey is it:
-          <br>
-          <input type="button" id="drapeNone" class="btnDrape" value="Super Stiff">
-          <input type="button" id="drapeLow" class="btnDrape" value="Not very">
-          <input type="button" id="drapeMed" class="btnDrape" value="Somewhat">
-          <input type="button" id="drapeHigh" class="btnDrape" value="Very">
-
-        </div>
-
-        <div>
-          Does the fabric have a pattern?
-            No, it's plain
-            Yes, stripes
-            Yes, other
-        </div>
-      </div>
-
-      <div>
-        Size information (optional)
-      </div>
-
-      <div>
-        Results
-      </div>
-
+      <section id="selections">
+        <p>Pick your project to get a better estimate.</p>
+      </section>
 
     </div>
+    
+    <footer>
+      <h3>What is this site?</h3>
+      <p>We’ve all been there: exploring a textiles shop, looking at that perfect fabric.</p>
+
+      <p>How much should you buy from that bolt? Or what project to make with that remnant?</p>
+
+      <p>This site is a quick reference designed to be used on-the-go, to give you ideas for that perfect cut of gorgeous fabric.</p>
+
+      <p><a href="http://www.paper-robot.com">Want more sewing stuff? Check out my blog at www.paper-robot.com!</a></p>
+    </footer>
 
   </body>
 </html>
