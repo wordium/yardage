@@ -62,13 +62,24 @@ $(document).ready(function() {
 
     if ((category === 'dress') || (category === 'skirt'))
       $('#skirt').show();
-    else
+    else {
       $('#skirt').hide();
+      yardageTrack['skirt'] = 0;
+    }
 
     if ((category === 'dress') || (category === 'top') || (category === 'jacket'))
       $('#sleeves').show()
-    else
+    else {
       $('#sleeves').hide();
+      yardageTrack['sleeves'] = 0;
+    }
+
+    if (category === 'leggings') {
+      $('#ease').hide();
+      yardageTrack['ease'] = 0;
+    }
+    else
+      $('#ease').show();
   });
 
   // change values when select is changed
