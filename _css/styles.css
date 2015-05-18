@@ -28,7 +28,7 @@ body {
 #container {
   position: relative;
   background-color: #7ECAC3;
-  padding-bottom: 5%;
+  padding: 3em;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -55,17 +55,15 @@ select  {
   border: 1px solid #AE1E58;
 }
 
-header {
-  border-top: 1em solid #00685B;
-  padding-top: 1em;
+header, footer {
+  background-color: #00685B;
+  color: #fff;
+  padding: 1em 0;
+  width: 100%;
 }
 
 footer {
-  background-color: #00685B;
-  color: #fff;
-  width: 100%;
   font-size: 0.75em;
-  padding: 1em 0;
 }
 
 footer a {
