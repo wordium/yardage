@@ -28,7 +28,7 @@ body {
 #container {
   position: relative;
   background-color: #7ECAC3;
-  padding: 3em;
+  padding: 2.5em;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -49,7 +49,7 @@ h2 {
 select  {
   text-transform: capitalize;
   display: block;
-  width: 30%;
+  width: 70%;
   margin: 1em auto 0;
   background: #E0F1F1;
   border: 1px solid #AE1E58;
@@ -70,6 +70,14 @@ footer a {
   color: #F391B2;
 }
 
-#selections {
-  padding-bottom: 3em;
+@media (min-width: 600px) {
+  select {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  select {
+    width: 30%;
+  }
 }
