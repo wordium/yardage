@@ -74,6 +74,11 @@ footer a {
   select {
     width: 50%;
   }
+
+  footer p {
+    max-width: 50%;
+    margin: auto auto;
+  }
 }
 
 @media (min-width: 1000px) {
