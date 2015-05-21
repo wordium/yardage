@@ -29,10 +29,10 @@ var dimensions = {
   },
   'size' : {
     'infant' : -1,
-    'child' : -0.5,
-    'small' : -0.25,
-    'medium' : 0,
-    'large' : 0.25
+    'child' : -0.25,
+    'small' : 0,
+    'medium' : 0.25,
+    'large' : 0.5
   },
   'sleeves' : {
     'long sleeve' : 0.5,
@@ -45,6 +45,38 @@ var dimensions = {
     'a-line' : 0
   }
 };
+
+// convert yards to metres, rounded to the nearest 10th.
+function convertYards(yards) {
+  return (Math.round(yards * 0.9144 * 10))/10;
+}
+
+// convert to desired fabric width
+function convertWidth(width) {
+
+}
+
+// populate selects
+function setup() {
+  var $selections = $('#selections');
+
+  for (var d in dimensions) {
+    // set up select
+    $selections.append('<select name="' + d + '" id="' + d + '"></select>');
+    var $sub = $('#' + d);
+
+    // add category types
+    $sub.append('<option value="0" disabled selected>' + d + '</option>');
+
+    // add options
+    for (var type in dimensions[d]) {
+      $sub.append('<option value="' + type + '">' + type + '</option>');
+    }
+
+    // close select
+    $selections.append('</select>');
+  }
+}
 
 
 $(document).ready(function() {
@@ -104,28 +136,9 @@ $(document).ready(function() {
     else
       $('#plural').removeClass('hidden');
 
+
+    console.log(convertYards(yardage));
+
   })
 
 });
-
-// populate selects
-function setup() {
-  var $selections = $('#selections');
-
-  for (var d in dimensions) {
-    // set up select
-    $selections.append('<select name="' + d + '" id="' + d + '"></select>');
-    var $sub = $('#' + d);
-
-    // add category types
-    $sub.append('<option value="0" disabled selected>' + d + '</option>');
-
-    // add options
-    for (var type in dimensions[d]) {
-      $sub.append('<option value="' + type + '">' + type + '</option>');
-    }
-
-    // close select
-    $selections.append('</select>');
-  }
-}
